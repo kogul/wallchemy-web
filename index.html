@@ -7,13 +7,17 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Assets/Css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Assets/Css/aos.css">
     <link rel="stylesheet" type="text/css" href="Assets/Css/main.css">
     <script type="text/javascript" src="Assets/Js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="Assets/Js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="Assets/Js/aos.js"></script>
     <script type="text/javascript" src="Assets/Js/custom.js"></script>
 </head>
 
 <body>
+    <div class="loader"></div>
+
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#">ARTISTS UNITE</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +52,7 @@
             <div class="col-md-12" style="min-height: 100%; padding: 0px;">
                 <div class="offset-md-3 col-md-6 vert-align" style="min-height: 100vh;">
                     <div class="logo-wrap">
-                        <img id="logo" src="Assets/Images/logo.png">
+                        <img id="logo" data-aos="flip-up" src="Assets/Images/logo.png">
                         <h4>DON'T <span class="bold-col">BUILD</span> WALLS, <span class="bold-col">PAINT</span> THEM</h4>
                         <p>From street art to fine art,</p>
                         <p>we are here to bring your walls to life through paints and brushes</p>
@@ -60,14 +64,14 @@
         </div>
     </div>
     <div class="height-def moto">
-        <h1>ALL <span class="bold-pink">THINGS</span> WALL</h1>
+        <h1 data-aos="fade-up">ALL <span class="bold-pink">THINGS</span> WALL</h1>
         <hr />
         <div class="container-fluid">
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-4 slogan-wrap">
-                        <h2>TIME TO JAZZ UP</h2>
-                        <h2> YOUR WALL</h2>
+                        <h2 data-aos="zoom-in">TIME TO JAZZ UP</h2>
+                        <h2 data-aos="zoom-in"> YOUR WALL</h2>
                         <br/>
                         <div class="pink-border-outer rotate-anti"></div>
                         <div class="pink-border">
@@ -77,8 +81,8 @@
                         </div>
                     </div>
                     <div class="col-md-4 slogan-wrap">
-                        <h2>WALL ART FOR</h2>
-                        <h2>YOUR BUSINESS </h2>
+                        <h2 data-aos="zoom-in">WALL ART FOR</h2>
+                        <h2 data-aos="zoom-in">YOUR BUSINESS </h2>
                         <br/>
 						<div  class="pink-border-outer rotate-clock"></div>
                         <div class="pink-border">
@@ -88,8 +92,8 @@
                         </div>
                     </div>
                     <div class="col-md-4 slogan-wrap">
-                        <h2>PERSONALIZED</h2>
-                        <h2>POSTERS</h2>
+                        <h2 data-aos="zoom-in">PERSONALIZED</h2>
+                        <h2 data-aos="zoom-in">POSTERS</h2>
 						<br/>
 						<div class="pink-border-outer rotate-anti"></div>
                         <div class="pink-border" id="right-most">
@@ -106,34 +110,34 @@
     </div>
     <div class="height-def moto"  style="overflow-x: hidden;">
         <div class="tagline-one">
-            <p>MAKING <strong>LIFE</strong> AND <strong>WALLS</strong><br /> MORE <strong>COLOURFUL</strong></p>
+            <p data-aos="zoom-out">MAKING <strong>LIFE</strong> AND <strong>WALLS</strong><br /> MORE <strong>COLOURFUL</strong></p>
         </div>
         <div class="row">
             <div class="col-md-4 philosophy">
-                <p><span class="bold-col">WALL</span> <span class="bold-pink">+</span> <span class="bold-col">ALCHEMY</span> <span class="bold-pink">=</span></p>
+                <p data-aos="fade-right"><span class="bold-col">WALL</span> <span class="bold-pink">+</span> <span class="bold-col">ALCHEMY</span> <span class="bold-pink">=</span></p>
             </div>
             <div class="col-md-8 philosophy">
                 <div class="philosophy-cont">
-                    <p>An artists job is to do one thing, fill up white canvas' in ways <span class="bold-pink">unimaginable</span>.</p>
+                    <p data-aos="fade-left">An artists job is to do one thing, fill up white canvas' in ways <span class="bold-pink">unimaginable</span>.</p>
                     <br />
-                    <p>So, when we saw the canvas, the <strong>biggest</strong> ones that normies call walls, in rooms, restaurants and public places, we decided to create the unimaginable on <strong>every</strong> boring wall we ever see. </p>
+                    <p data-aos="fade-left">So, when we saw the canvas, the <strong>biggest</strong> ones that normies call walls, in rooms, restaurants and public places, we decided to create the unimaginable on <strong>every</strong> boring wall we ever see. </p>
                     <br />
-                    <p>We can't make <strong>gold</strong> out of metal, so we made <strong>murals</strong> out of walls.</p>
+                    <p data-aos="fade-left">We can't make <strong>gold</strong> out of metal, so we made <strong>murals</strong> out of walls.</p>
                 </div>
             </div>
         </div>
         <div>
             <div class="tagline-two vert-align">
                 <div class="row">
-                    <div class="col-md-4 hor-cent vert-align">
+                    <div data-aos="zoom-out" class="col-md-4 hor-cent vert-align">
                         <h1>3,150+</h1>
                         <p>SQM OF WALLS PAINTED</p>
                     </div>
-                    <div class="col-md-4 hor-cent vert-align">
+                    <div data-aos="zoom-out" class="col-md-4 hor-cent vert-align">
                         <h1>61+</h1>
                         <p>ARTWORKS CREATED</p>
                     </div>
-                    <div class="col-md-4 hor-cent vert-align">
+                    <div data-aos="zoom-out" class="col-md-4 hor-cent vert-align">
                         <h1>267+</h1>
                         <p>LITRES OF PAINT USED</p>
                     </div>
@@ -142,30 +146,34 @@
         </div>
     </div>
     <div class="height-def moto">
-        <h1>OUR <span class="bold-pink">METHOD</span></h1>
+        <h1 data-aos="fade-up">OUR <span class="bold-pink">METHOD</span></h1>
         <hr />
-        <h3>Here is how we lay our bricks.</h3>
+        <h3 data-aos="zoom-in">Here is how we lay our bricks.</h3>
         <img src="Assets/Images/Bricks.jpg" style="width: 100%;">
     </div>
     <div class="height-def moto">
-        <h1>WALLS DON'T <span class="bold-pink">HEAR</span>, THEY <span class="bold-pink">TALK</span></h1>
+        <h1 data-aos="fade-up">WALLS DON'T <span class="bold-pink">HEAR</span>, THEY <span class="bold-pink">TALK</span></h1>
         <hr />
-        <h3>You out to see the 9th wonder, out gallary.</h3>
+        <h3 data-aos="zoom-in" >You out to see the 9th wonder, out gallary.</h3>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner carousel-height">
                 <div class="carousel-item active">
-                    <img src="Assets/Images/header_bg.jpg" class="d-block w-100" alt="...">
+                    <img src="Assets/Images/previous_1.jpg"  class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="Assets/Images/header_bg.jpg" class="d-block w-100" alt="...">
+                    <img src="Assets/Images/previous_2.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="Assets/Images/header_bg.jpg" class="d-block w-100" alt="...">
+                    <img src="Assets/Images/previous_3.jpg" class="d-block w-100" alt="...">
+                </div>
+                 <div class="carousel-item">
+                    <img src="Assets/Images/previous_4.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -180,7 +188,7 @@
     </div>
     <div class="height-def" style="padding-top: 0px;">
         <div class="tagline-three hor-cent">
-            <h3>OUR <strong>COLLABORATORS</strong></h3>
+            <h3 data-aos="zoom-out">OUR <strong>COLLABORATORS</strong></h3>
             <hr style="width: 10%; border:solid 0.5px #FFF;" />
             <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner carousel-collab">
@@ -232,18 +240,18 @@
             </div>
         </div>
         <div>
-            <h1>ARE YOU AN <span class="bold-pink">ARTIST</span>? AWESOME!</h1>
+            <h1 data-aos="fade-up">ARE YOU AN <span class="bold-pink">ARTIST</span>? AWESOME!</h1>
             <hr style="width: 30%" />
             <div class="hor-cent" class="col-md-12">
-                <p>Love painting and things and walls?</p>
-                <p>Tell us about your art and join the <strong>legion</strong></p>
+                <p data-aos="fade-right">Love painting and things and walls?</p>
+                <p data-aos="fade-right">Tell us about your art and join the <strong>legion</strong></p>
                 <br />
                 <br />
                 <a href="#" class="button-link">UNITE!</a>
                 <br />
                 <br />
                 <div class="offset-md-4 col-md-4">
-                    <p>I absolutely love Pink Floyd and I've always wanted a big mural of their album cover when I get a house. Wallchemy brought that dream to life and I couldn't love it more! </p>
+                    <p data-aos="fade-left">I absolutely love Pink Floyd and I've always wanted a big mural of their album cover when I get a house. Wallchemy brought that dream to life and I couldn't love it more! </p>
                     <p><span style="color: #d53684">RIYA BHATT</span>, CHENNAI</p>
                 </div>
             </div>
@@ -251,7 +259,7 @@
     </div>
     <div>
         <div class="contact-form hor-cent">
-        	    	<h1>HIRE <strong>PICASSO</strong></h1>
+        	    	<h1 data-aos="fade-up">HIRE <strong>PICASSO</strong></h1>
         	    	<hr style="border:solid 0.5px #FFF; width: 30%;" />
         	<div class="offset-md-3 col-md-6">
             <form class="container-fluid">

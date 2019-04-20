@@ -17,3 +17,7 @@ function rightMost(){
 	console.log(bubblePosBox);
 	bubble.position().right = bubblePosBox.position();
 }
+$(window).on('load',function(){
+  $('.loader').fadeOut();
+  AOS.init();
+});

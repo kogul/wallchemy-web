@@ -2,7 +2,30 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 nav{
+	
 	background-color: #293160;
+}
+#dvLoading{
+   height: 100vh;
+   width: 100%;
+   position: fixed;
+   z-index: 1000;
+   text-align: center;
+   background-color: rgba(256,256,256,0.7);
+}
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../Images/preloader.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
+a:hover{
+		color: #FFF;
+		text-decoration: none;
 }
 .navbar-brand, .nav-link{
 	color: #FFF !important;
@@ -62,6 +85,12 @@ h4{
 	padding: 15px;
 	color: #FFF;
 	font-size: 20px;
+}
+.button-link:hover{
+	border: solid 1px  #d53684;
+	color:  #d53684;
+	background-color: #FFF;
+	transform: scale(2);
 }
 .height-def{
 	min-height: 90vh;
@@ -148,7 +177,7 @@ p{
 	margin: 0px;
 }
 .carousel-height{
-	max-height: 70vh;
+	max-height: 90vh;
 }
 .tagline-three{
 	padding: 10px 0px;
