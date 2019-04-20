@@ -19,5 +19,5 @@ function rightMost(){
 }
 $(window).on('load',function(){
   $('.loader').fadeOut();
-  AOS.init();
+  AOS.init({duration:1000});
 });
