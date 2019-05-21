@@ -30,6 +30,12 @@ a:hover{
 .navbar-brand, .nav-link{
 	color: #FFF !important;
 }
+.navbar-brand:hover{
+	background-color: #FFF;
+	color: #293160 !important;
+	transition: 0.5s !important;
+	transform: scale(2);
+}
 .nav-link{
 	border-right: solid 2px #a7347a;
 }
